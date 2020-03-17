@@ -1,6 +1,6 @@
-let s1 = "bar";
-let s2 = "foo";
-console.log(characterMapping(s1, s2));
+const args = process.argv.slice(2);
+
+console.log(characterMapping(args[0], args[1]));
 
 function characterMapping(s1, s2) {
 
